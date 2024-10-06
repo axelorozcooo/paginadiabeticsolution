@@ -1,0 +1,28 @@
+^C:\USERS\USUARIO\PAGINADIABETICSOLUTION\BUILD\WINDOWS\X64\CMAKEFILES\E596B625A2724E63571435EEB25D0D35\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\usuario\paginadiabeticsolution FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\usuario\paginadiabeticsolution\windows\flutter\ephemeral PROJECT_DIR=C:\Users\usuario\paginadiabeticsolution FLUTTER_TARGET=C:\Users\usuario\paginadiabeticsolution\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\usuario\paginadiabeticsolution\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\PAGINADIABETICSOLUTION\BUILD\WINDOWS\X64\CMAKEFILES\E0162C0BE1B5ECC6FAFDFC468B31EE36\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\PAGINADIABETICSOLUTION\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/usuario/paginadiabeticsolution/windows -BC:/Users/usuario/paginadiabeticsolution/build/windows/x64 --check-stamp-file C:/Users/usuario/paginadiabeticsolution/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
